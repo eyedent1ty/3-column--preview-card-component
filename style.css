@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+    font-size: 15px;
+    margin: 0;
+    font-family: "Lexend Deca"
+}
+
+.container {
+    height: 1350px;
+}
+
+.card {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    padding-bottom: 50px;
+}
+
+.car-name {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.description {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+}
+
+.card:nth-of-type(1) {
+    margin-top: 70px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.card:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.section__header {
+    margin-top: 30px;
+}
+
+.icon {
+    width: 64px;
+    height: 40px;
+}
+
+.sedans .icon {
+    background-image: url("images/icon-sedans.svg");
+}
+
+.sedans .btn {
+    color: hsl(31, 77%, 52%)
+}
+
+.suvs .icon {
+    background-image: url("images/icon-suvs.svg");
+}
+
+.suvs .btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .icon {
+    background-image: url("images/icon-luxury.svg");
+}
+
+.luxury .btn {
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media (min-width: 1440px) {
+    .container {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .container .card {
+        height: 30%;
+        border-radius: 0;
+    }
+
+    .card:first-child {
+        margin-top: 0;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    .card:last-child {
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    .btn {
+        margin-top: 60px;
+    }
+
+}
+
+/* BACKGROUND COLORS */
+.bg-bright-orange {
+    background-color: hsl(31, 77%, 52%)
+}
+
+.bg-dark-cyan {
+    background-color: hsl(184, 100%, 22%)
+}
+
+.bg-very-dark-cyan {
+    background-color: hsl(179, 100%, 13%)
+}
+
+/* TEXT COLORS */
+.transparent-white {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.light-gray {
+    color: hsl(0, 0%, 95%);
+}
