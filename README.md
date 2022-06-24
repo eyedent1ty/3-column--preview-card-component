@@ -14,4 +14,4 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: [Repository](https://github.com/eyedent1ty/3-column--preview-card-component)
-- Live Site URL: [See Live](https://eyedent1ty-profile-card-component.netlify.app/)
+- Live Site URL: [See Live](https://eeydent1ty-3-column-preview-card-component.netlify.app)
